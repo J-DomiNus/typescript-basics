@@ -1,4 +1,5 @@
 import Counter from "./components/Counter";
+import TimerParent from "./components/TimerParent";
 import User from "./components/User";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <hr />
       <Counter />
       <User />
+      <TimerParent />
     </>
   );
 }

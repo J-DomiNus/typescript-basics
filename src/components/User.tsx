@@ -11,7 +11,7 @@ const tempUser: User = {
 };
 
 const User = () => {
-  const [user, setUser] = useState<User>(tempUser);
+  const [user, setUser] = useState<User>();
   const login = () => {
     setUser({
       uid: "ABC123",
